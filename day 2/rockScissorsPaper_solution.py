@@ -3,6 +3,11 @@
 
 import random
 
+def userWon():
+  print("The user won!")
+
+def computerWon():
+  print("The  computer won!")
 def whatIsIt(num):
   if num < 0 or num > 2: 
     return "You gave a wrong number! Number has to be between 0 and 2"
